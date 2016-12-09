@@ -1,0 +1,68 @@
+html {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 137.5%;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: #FDF7FD;
+  border: calc(0.3rem + 0.5vmin) solid #F3EDF3;
+  color: #3f3f46;
+  margin: 0;
+  padding: 30px 15px 100px 15px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+p {
+  font-size: calc(0.65rem + 0.5vmin);
+  line-height: calc(1rem + 0.5vmin);
+  margin-bottom: 0;
+
+}
+
+ul, ol {
+  margin-top: calc(0.75rem + 0.75vmin);
+  margin-bottom: calc(0.75rem + 0.75vmin);
+  padding: 0 calc(1rem + 1vmin);
+}
+
+ul li, ol li {
+  font-size: calc(0.65rem + 0.5vmin);
+  line-height: calc(1rem + 0.5vmin);
+  margin-bottom: calc(1rem + 0.5vmin);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: calc(1rem + 2.5vmin);
+  font-weight: 900;
+  margin-bottom: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+  font-size: calc(1rem + 2.25vmin);
+  line-height: calc(1.2rem + 2.25vmin);
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: calc(1rem + 1.5vmin);
+  line-height: calc(1.2rem + 1.5vmin);
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: calc(0.8rem + 1.25vmin);
+  line-height: calc(1rem + 1.25vmin);
+}
+
+h4 {
+  font-size: calc(0.75rem + 1vmin);
+  line-height: calc(1rem + 1vmin);
+}
